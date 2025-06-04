@@ -1,0 +1,12 @@
+{
+  "name": "pet-website",
+  "version": "1.0.0",
+  "description": "Pet website with frontend and backend",
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && pnpm dev\"",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && pnpm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+} 
